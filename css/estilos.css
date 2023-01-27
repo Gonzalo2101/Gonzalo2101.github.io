@@ -1,0 +1,90 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+html {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2%;
+  background-color:antiquewhite;
+}
+nav {
+  background-color: antiquewhite;
+}
+#Titulo {
+  text-align: center;
+  position: relative;
+  border: solid 5px #FFEB3B ;
+  font-size: 30px;
+  padding: 3%;
+  background-color:antiquewhite;
+  margin-top: 0%;
+}
+#aptitudes {
+  text-align: center;
+  position: relative;
+  margin: 5%;
+}
+article{
+  width: 65%;
+  
+  float: left;
+}
+
+#derecha{
+  font-family: 'Roboto', sans-serif;
+  float: right;
+  width: 35%;
+  text-align: center;
+  position: relative;
+}
+#Foto{
+  max-width: 35%;
+  max-height: auto;
+  border-radius: 50%;
+  border:7px solid #000000;
+}
+#obj {
+  background-color: #FFEB3B ;
+}
+#info {
+  border: 3px #FFEB3B  solid;
+  width: auto;
+}
+
+#eeh {
+  border: 3px #FFEB3B solid;
+  height: auto;
+  text-align: center;
+  position: relative;
+}
+
+.sub {
+  font-size: 25px;
+}
+
+.adap {
+ display:inline-flexbox;
+ grid-template-columns: repeat(
+    auto-fit, 
+     minmax(
+      150px,
+      1fr
+     )
+ );
+ gap: 16px;
+}
+
+.botoncito {
+  background: #000000;
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  border-radius: 12px;
+}
+
+
